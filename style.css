@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+
+}
+
+aside {
+  min-width: 30%;
+  line-height: 0px;
+  border-right: 0.5px solid darkgray;
+}
+
+.top-head {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #243137;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.menu-head {
+  display: flex;
+  color: #b5c3c4;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  color: #b5c3c4;
+  box-sizing: border-box;
+  /* background-color: aqua; */
+}
+
+.icon-box span {
+  font-size: 25px;
+}
+
+.icon-box>div {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.icon-box>div:hover {
+  color: #00a980;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+}
+
+.profile img:hover {
+  border-radius: 50%;
+  border: 1px solid #00a980;
+}
+
+.chat-section {
+  width: 100%;
+  height: 669px;
+  background-color: #111b21;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.setting :hover {
+  color: #00a980;
+}
+
+.search-box {
+  width: 100%;
+  height: 75px;
+  background-color: #111b21;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter-list {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  color: #b5c3c4;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input[type='search'] {
+  min-width: 98%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 350px;
+  background-image: url('img/searchicon.png');
+  background-position: 20px 10px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  padding: 10px 0px 10px 65px;
+  background-color: #b5c3c4;
+  ;
+}
+
+.chat-messages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 15px 0px;
+}
+
+.profile-box {
+  width: 15%;
+  /* height: 70px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: darkgray; */
+}
+
+.chat-profile-pic img {
+  width: 50px;
+  height: 50px;
+}
+
+.message-box {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  /* background-color: cornflowerblue; */
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #b5c3c4;
+}
+
+.message-text {
+  width: 78%;
+  height: 70px;
+  color: #b5c3c4;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 10px;
+  padding: 0px 0px 0px 5px;
+}
+
+.fixing-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 20px;
+  font-size: larger;
+}
+
+.fixing-text h2 {
+  text-align: start;
+}
+
+/* .text-head {
+  background-color: yellow;
+} */
+
+.text-bottom {
+  height: 30px;
+  /* background-color: green; */
+}
+
+.message-status {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  /* background-color: skyblue; */
+}
+
+.status-fixing {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-day {
+  height: 20px;
+  color: #00a980;
+  margin-bottom: 3px;
+  /* background-color: green; */
+}
+
+.message-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+
+.message-count span {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  background-color: #00a980;
+}
+
+section {
+  width: 70%;
+  height: 739px;
+  background-color: #243137;
+}
+
+/* SCROLL-BAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* colors */
+/* #111b21 
+#243137 
+#00a980 
+color: #b5c3c4;*/
